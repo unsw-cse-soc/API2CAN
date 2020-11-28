@@ -119,7 +119,6 @@ def plural_to_singular_edit(canonical, resources=None):
 def to_parameters_postfix(params):
     if not params:
         return ""
-
     entity_params = list(filter(ParamUtils.is_entity_parameter, params))
     non_path_params = list(filter(lambda p: p.location != 'path', entity_params))
 
