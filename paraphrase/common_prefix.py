@@ -1,6 +1,5 @@
 import json
 import os
-
 from artemis.fileman.disk_memoize import memoize_to_disk
 from nltk import ngrams
 from collections import Counter
