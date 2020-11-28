@@ -10,7 +10,6 @@ from swagger.swagger_utils import ParamUtils, PathUtils
 from utils.corenlp import nlp
 from utils.text import is_verb, is_singular, singular, is_adjective, is_noun, is_plural
 
-
 def __find_param(name, params):
     if params:
         for p in params:
