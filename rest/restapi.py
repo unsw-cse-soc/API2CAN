@@ -7,7 +7,6 @@ import werkzeug
 from flask_cors import CORS
 from flask import Flask, jsonify, abort, request
 from flask_restx import Api, reqparse, fields, Resource
-
 from swagger.resource_delexicalization import delexicalize
 from swagger.templatetization import Templatetizer
 
